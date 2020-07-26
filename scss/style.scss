@@ -1,0 +1,206 @@
+.navbar{
+    background-color: #000000;
+
+    .nav-item{
+        padding-left: 1rem;
+    }
+}
+
+.carousel-item{
+    height: 505px;
+}
+
+.carousel-img-1{
+    background: url('../Image/image1.jpeg');
+    background-size: cover;
+}
+.carousel-img-2{
+    background: url('../Image/image2.jpeg');
+    background-size: cover;
+}
+.carousel-img-3{
+    background: url('../Image/image3.jpeg');
+    background-size: cover;
+}
+
+#home-icons{
+    .fas{
+        font-size: 45px;
+    }
+
+}
+
+#get-started{
+    background-image: url('../Image/bg1.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center top;
+    min-height: 250px;
+    position: relative;
+
+    .dark-overlay{
+            background-color: rgba(0, 0, 0, 0.7);
+            min-height: 250px;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+    }
+}
+
+#home-info{
+    h3{
+        font-size: 30px;
+    }
+}
+
+#home-lightbox-video{
+    background-image: url('../Image/people.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+    min-height: 250px;
+    position: relative;
+
+    .dark-overlay{
+        background-color: rgba(0, 0, 0, 0.7);
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+    }
+
+    .fas{
+        font-size: 45px;
+        color: red;
+    }
+}
+
+#photo-gallery{
+    img{
+        min-height: 250px;
+    }
+}
+
+#footer{
+    background: #000000;
+}
+
+
+
+/* About Page */
+
+#about-page-header{
+    background-image: url('../Image/image1.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center top;
+    min-height: 245px;
+}
+
+#about-info{
+    img{
+        width: 350px;
+        height: 350px;
+    }
+}
+
+#about-icon-boxes{
+    .fas{
+        font-size: 50px;
+        margin-bottom: 15px;
+    }
+
+    .fab{
+        font-size: 50px;
+        margin-bottom: 15px;
+    }
+}
+
+#about-testimonial{
+    .slick-prev::before {
+        color: #000000;
+    }
+
+    .slick-next::before {
+        color: #000000;
+    }
+}
+
+/* Services Page */
+
+#services-page-header {
+	background-image: url("../Image/image3.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center top;
+	min-height: 258px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:575px){
+    #slider{
+        h2{
+            font-size: 2.1rem;
+            margin-top: 5px;
+        }
+    }
+}
+
+@media (max-width:767px){
+    #home-icons{
+        .margin{
+            margin-bottom: 40px;
+        }
+    }
+
+    #get-started {
+        min-height: 320px;
+    }
+}
+
+@media (max-width: 575px){
+    #get-started{
+        min-height: 300px;
+    }
+}
+
+@media (max-width: 513px){
+    #get-started{
+        min-height: 330px;
+    }
+}
+
+@media (max-width: 375px){
+    #get-started{
+        min-height: 430px;
+    }
+}
+
+@media (max-width: 575px){
+    #about-info{
+        img{
+            width: 240px;
+            height: 240px;
+        }
+    }
+}
